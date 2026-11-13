@@ -283,6 +283,43 @@ Ordinary ratings and the full text of −1 comments may be paged behind a cursor
 
 ---
 
+## Entry 10 — The registry published in a repository of its own
+
+| | |
+|---|---|
+| **Date of act** | 2026-11-13 |
+| **Recorded** | 2026-11-13 |
+| **Type** | Bootstrap act — publication of this registry, and the changes of form made to publish it |
+| **Authority** | §9.5 ("a public, append-only governance registry"); §16.1; recorded under §9.5 |
+| **Decided by** | The President (Jodson Graves), for the founder board |
+| **Status** | Valid; open to the membership under §2.3. In effect when the pull request that adds this file merges. |
+
+**What was decided.**
+
+1. The registry is published in its own public repository, [NTARI-RAND/governance-registry](https://github.com/NTARI-RAND/governance-registry). From the day this entry merges, the `main` branch of that repository holds the registry of record. The copy kept in the Institute's working documents follows it.
+2. The registry is licensed under AGPL-3.0, version 3 only, under Entry 9.
+3. New entries reach the registry by pull request. Every commit carries a Developer Certificate of Origin (DCO) sign-off, which is checked with no bypass.
+
+**Why.** §9.5 calls for a public registry. Until this act, the registry was kept only in the Institute's working documents and no member could read or check it. A repository of its own keeps the registry's whole history in the open, apart from the documents whose amendments it records. An amendment of the bylaws or of the official document therefore never travels in the same change as the record of it.
+
+**Changes of form made in publishing.** No entry's substance changed. These changes let a public reader follow the entries, and they are listed here because §2.5 forbids silent rewriting.
+
+- Links that pointed to the Institute's working files now point to the same documents in the public repositories. The bylaws link to [NTARI-RAND/bylaws](https://github.com/NTARI-RAND/bylaws). The official document, its open questions, the structure article, the concept triage record and P1-004 link to [NTARI-RAND/Janus](https://github.com/NTARI-RAND/Janus). Each link shows the current version on that repository's `main` branch; the version as it stood on an entry's date is in that repository's history.
+- Entry 1 named the folder of archived bylaws by its working path. It now links to the same folder in the bylaws repository.
+- Entry 2's command for rerunning the conformance suite now names the file as it sits in the Janus repository.
+- Entry 6 linked to the 2026-11-11 secret-scan report. The report stays internal, because it lists where old, dead credentials sit. The link was replaced by a plain statement of that.
+- The footer no longer carries a contact email address. It states the license instead.
+
+**What this act did not decide.**
+
+- The registry's intended mechanical form, the policy register in the record machinery. The interim form and its committed exit, stated at the top of this file, are unchanged.
+- Renderings of the registry in the other six languages in which the bylaws and the official document are published. None is made by this act.
+- Where the policy register proposed in [NTARI-RAND/governance-rand#4](https://github.com/NTARI-RAND/governance-rand/pull/4) (Schedule P) would be kept, if it is adopted.
+
+**Source of this entry.** The President's direction of 2026-11-13 in a working session, choosing to publish the registry in a repository of its own.
+
+---
+
 ## Deliberately not entered
 
 Recorded so the gaps are visible rather than silent, per the discipline of §2.5.
